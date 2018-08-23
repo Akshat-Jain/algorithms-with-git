@@ -1,0 +1,6 @@
+{% include header.html %}
+{% for algo in site.algorithms %}
+<strong>{{ algo.title }}</strong>
+{{ algo.output }}
+{% endfor %}
+{% include footer.html %}

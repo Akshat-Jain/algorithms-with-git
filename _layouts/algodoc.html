@@ -1,0 +1,5 @@
+{{ content }}
+<pre><code>
+{% capture code %}{% include_relative code.cpp %}{% endcapture %}
+{{ code | xml_escape }}
+</code></pre>
